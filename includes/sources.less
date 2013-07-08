@@ -1,0 +1,81 @@
+// sources.less
+
+// Layout Styles
+
+.script-view,
+.properties-tree,
+.pane,
+.breakpoint-list li,
+.pane > .body .info {
+  color: #CCC !important;
+}
+
+.script-view,
+.text-editor-contents,
+.pane.expanded,
+#elements-content,
+.resource-view.json {
+  background: @background !important;
+  font-size: 12px !important;
+}
+
+.highlight {
+  color: #F1F1F1;
+}
+
+li.hovered:not(.selected) .selection {
+  background: rgba(255, 255, 255, .2) !important;
+}
+
+#elements-content .selected {
+  background-color: @selectionRow !important;
+}
+
+.base-navigator-tree-element-title {
+  color: @sidebar-text;
+}
+
+.tabbed-pane-header,
+.navigator-tabbed-pane .tabbed-pane-header {
+  background-image: @toolbar-bg !important;
+}
+
+.tabbed-pane-header-tab {
+  color: #bbb !important;
+  text-shadow: black 0 1px 0 !important;
+}
+
+.tabbed-pane-header-tab.selected {
+  background-color: @background !important;
+  color: @sidebar-text !important;
+  // background-color: darken(@toolbar-bg, 25%) !important;
+}
+
+#scripts-editor-container-tabbed-pane .tabbed-pane-header {
+  background-image: @toolbar-bg !important;
+}
+
+.tabbed-pane-header-tab-close-button {
+  color: @sidebar-text !important;
+}
+
+.tabbed-pane-content {
+  background: @background !important;
+  color: @sidebar-text !important;
+}
+
+.outline-disclosure li.selected .selection {
+  background-color: @selectionRow !important;
+}
+
+.outline-disclosure ol:focus li.selected .selection {
+  background-color: rgb(56, 121, 217) !important;  // keep default blue selection
+}
+
+.header-toggle:hover {
+  color: @html-link !important;
+}
+
+.header-value.source-code {
+  color: white !important;
+}

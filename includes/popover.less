@@ -1,0 +1,59 @@
+// popover.less
+
+
+
+// Popover
+
+.popover {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 10px solid rgba(0, 0, 0, 0.9) !important;
+  border-radius: 10px !important;
+  -webkit-border-image: none !important;
+  // margin-top: -15px !important;
+  margin-left: 10px !important;
+}
+
+.popover .arrow {
+  background-image: none !important;
+  border-color: transparent transparent #000 transparent !important;
+  border-style: solid;
+  border-width: 10px;
+  width: 0 !important;
+  height: 0 !important;
+  bottom: -2px !important;
+  left: 0;
+}
+
+.popover.bottom-left-arrow .arrow,
+.popover.bottom-right-arrow .arrow {
+  border-color: #000 transparent transparent transparent !important;
+}
+
+.popover.left-top-arrow .arrow,
+.popover.left-bottom-arrow .arrow {
+  border-color: transparent #000 transparent transparent !important;
+}
+
+.popover.right-top-arrow .arrow,
+.popover.right-bottom-arrow .arrow {
+  border-color: transparent transparent #000 transparent !important;
+}
+
+.popover .source-frame-popover-title {
+  color: @foreground !important;
+}
+
+.popover .source-frame-popover-tree {
+  border-top-color: #444 !important;
+}
+
+.custom-popup-vertical-scroll ::-webkit-scrollbar-track-piece:vertical:decrement,
+.custom-popup-vertical-scroll ::-webkit-scrollbar-track-piece:vertical:increment {
+    background: #333 !important;
+  border-radius: 5px !important;
+}
+
+// Image Preview Popover
+.popover table.image-preview-container .description {
+  color: @html-text-node;
+}

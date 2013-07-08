@@ -1,0 +1,124 @@
+// sidebar.less
+
+// Sidebar Styles
+.styles-section, .monospace {
+  font-family: @sidebar-font-family !important;
+}
+
+.selector-matches {
+  color: @sidebar-color !important;
+}
+
+body.inactive .sidebar {
+  background-color: darken(@sidebar-background, 10%) !important;
+}
+
+.sidebar {
+  background-color: @sidebar-background !important;
+  color: @sidebar-text;
+}
+
+.base-storage-tree-element-subtitle {
+  color: lighten(@sidebar-text, 5%) !important;
+  font-weight: bold;
+}
+
+.sidebar-tree-section {
+  color: lighten(@sidebar-text, 5%) !important;
+  text-shadow: black 0 0 0 !important;
+}
+
+
+.editing {
+  color: @foreground !important;
+  background-color: #000 !important;
+}
+
+.styles-section.read-only {
+  background: @selection !important;
+}
+
+.styles-section,
+.subtitle {
+  color: #7C7C7C !important;
+}
+
+.styles-sidebar-separator,
+.pane > .title {
+  background-image: -webkit-linear-gradient(#555, #333) !important;
+  border-top-color: #666 !important;
+  border-bottom-color: #333 !important;
+  color: #bbb !important;
+  text-shadow: black 0 1px 0 !important;
+  text-overflow: ellipsis !important;
+}
+
+.pane > .title > button,
+.pane > .title > select {
+  -webkit-filter: invert(1);
+}
+
+.split-view-sidebar-right {
+  background: #222 !important;
+}
+
+.section > .header::before,
+.properties-tree li.parent::before,
+.event-bars .event-bar .header::before,
+.outline-disclosure li.parent::before,
+.styles-section.matched-styles .properties li.parent .expand-element {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+.styles-section .properties li.parent::before,
+.styles-section .properties li.parent.expanded::before {
+  content: none !important;
+}
+
+.styles-section.matched-styles .properties li.parent .expand-element {
+  margin-right: 1px !important;
+  margin-left: -5px !important;
+  opacity: 0.6 !important;
+}
+
+.section.expanded > .header::before,
+.properties-tree li.parent.expanded::before,
+.event-bars .event-bar.expanded .header::before,
+.outline-disclosure li.parent.expanded::before,
+.styles-section.matched-styles .properties li.parent.expanded .expand-element {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+.child-editing {
+  color: @foreground !important;
+}
+
+.section .properties .name,
+.event-properties .name {
+  color: @javascript-property-name !important;
+}
+
+.styles-selector {
+  color: @css-selector !important;
+}
+
+.section .header {
+  color: #CCC !important;
+}
+
+.properties .value {
+  color: @javascript-property-value !important;
+}
+
+.metrics {
+  color: #333 !important;
+}
+
+.metrics .border {
+  border-color: #FFF !important;
+}
+
+.event-bars .event-bar .header .title {
+  color: #969796 !important;
+  text-shadow: none !important;
+}

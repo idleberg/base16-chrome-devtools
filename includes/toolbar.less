@@ -1,0 +1,53 @@
+// toolbar.less
+
+// Toolbar Styles
+  
+&.compact #toolbar {
+  background: @toolbar-bg !important;
+  border-top: 5px solid @toolbar-border-top !important;
+  border-bottom: 1px solid @toolbar-border-bottom !important;
+  padding-top: 0 !important;
+  height: 50px !important;
+}
+
+&.compact #toolbar .toolbar-label {
+  color: @toolbar-label !important;
+}
+
+&.compact #toolbar .toggled-on .toolbar-label {
+  color: @toolbar-label-active !important;
+}
+
+&.compact #toolbar .toolbar-item{
+  padding: 10px 15px !important;
+}
+
+&.compact #toolbar .toolbar-item.toggleable.toggled-on {
+  background: @toolbar-bg-active !important;
+  padding: 10px 13px !important;
+}
+
+&.compact .toolbar-item.close-left {
+  margin-top: 1px !important;
+}
+
+&.compact #toolbar-controls {
+  margin-top: -4px !important;
+}
+
+&.compact #toolbar-search-item {
+  margin-top: 12px !important;
+}
+
+&.compact #main {
+  top: 50px !important;
+}
+
+&.compact #search-results-matches {
+  color: #eee !important;
+  text-shadow: none !important;
+}
+
+&.compact #search {
+  background: @background !important;
+}
