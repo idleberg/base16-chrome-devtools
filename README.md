@@ -30,8 +30,7 @@ Pull requests can be made against [Base16 Builder][3]
 
 ## Credits
 
-Original Base16 color scheme by [Chris Kempson][4]
-LESS based on a Gist by [Ben Truyman][5]
+Original Base16 color scheme by [Chris Kempson][4], LESS based on a Gist by [Ben Truyman][5]
 
 [1]: https://github.com/chriskempson/base16
 [2]: https://github.com/idleberg/base16-chrome-devtools/tree/master/styles
