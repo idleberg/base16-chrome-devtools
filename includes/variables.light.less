@@ -1,4 +1,4 @@
-// variables.less
+// variables.light.less
 
 // Base16 colors
 @base00: #151515; // darkest
@@ -19,43 +19,43 @@
 @base0F: #8f5536; // brown
 
 // globals
-@background:   @base00;
-@current-line: @base04;
-@selection:    lighten(@base03,3%);
-@selectionRow: darken(@base03,15%);
-@foreground:   @base07;
+@background:   @base07;
+@current-line: @base03;
+@selection:    lighten(@base04,3%);
+@selectionRow: darken(@base04,15%);
+@foreground:   @base00;
 
 // toolbar
-@toolbar-label: @base07;
-@toolbar-label-active: @base07;
-@toolbar-bg: -webkit-linear-gradient(@base03, @base01);
-@toolbar-bg-active: -webkit-linear-gradient(@base02, @base01);
+@toolbar-label: @base00;
+@toolbar-label-active: @base00;
+@toolbar-bg: -webkit-linear-gradient(@base04, @base06);
+@toolbar-bg-active: -webkit-linear-gradient(@base05, @base06);
 // @toolbar-border-top: #C96666;
 @toolbar-border-top: @base0C;
-@toolbar-border-bottom: @base02;
+@toolbar-border-bottom: @base05;
 
 // statusbar
-@statusbar-border:      @base02;
-@statusbar-text:        darken(@base07,60%);
-@statusbar-text-active: darken(@base07,15%);
+@statusbar-border:      @base05;
+@statusbar-text:        darken(@base00,60%);
+@statusbar-text-active: darken(@base00,15%);
 
 // sidebar
 @sidebar-font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
 @sidebar-background:  @background;
 @sidebar-color:       @base0E;
-@sidebar-text:        @base05;
+@sidebar-text:        @base02;
 
 // html
 @html-attribute-name:  @base09;
 @html-attribute-value: @base0B;
-@html-comment:         @base03;
+@html-comment:         @base04;
 @html-js-node:         @base0E;
 @html-link:            @base0D;
 @html-tag:             @base08;
 @html-text-node:       @base09;;
 
 // css
-@css-comment:      @base03;
+@css-comment:      @base04;
 @css-keyword:      @base08;
 @css-number:       @base09;
 @css-property:     @base0A;
@@ -65,8 +65,8 @@
 @css-url:          @base0D;
 
 // javascript
-@javascript-comment:        @base03;
-@javascript-ident:          @base07;
+@javascript-comment:        @base04;
+@javascript-ident:          @base00;
 @javascript-keyword:        @base08;
 @javascript-number:         @base09;
 @javascript-property-name:  @base0A;
@@ -75,6 +75,6 @@
 @javascript-string:         @base09;
 
 // timeline
-@timeline-title:   @base05;
-@details-title:    @base02;
-@details-data:     @base05;
+@timeline-title:   @base02;
+@details-title:    @base05;
+@details-data:     @base02;
