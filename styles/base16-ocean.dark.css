@@ -1,41 +1,43 @@
 /*
 
-    Name:       Base16 Light Stylesheet for Chrome Developer Tools
-    Author:     Jan T. Sott
-    Website:    http://github.com/idleberg/base16-chrome-devtools
+    Name:       Base16 Ocean Dark
+    Author:     Chris Kempson (http://chriskempson.com)
 
-    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-    Based on a Gist by Ben Truyman (https://gist.github.com/3040634)
+    Chrome Developer Tools template by Jan T. Sott
+    Based on a Gist by Ben Truyman
+    Original Base16 color scheme by Chris Kempson
+
+    https://github.com/chriskempson/base16
 
 */
 #-webkit-web-inspector #main {
-  background-color: #f5f5f5 !important;
+  background-color: #2b303b !important;
 }
 #-webkit-web-inspector tr {
-  color: #303030;
+  color: #c0c5ce;
 }
 #-webkit-web-inspector ::selection {
   background: #888;
   opacity: 1;
 }
 #-webkit-web-inspector.compact #toolbar {
-  background: -webkit-linear-gradient(#b0b0b0, #e0e0e0) !important;
-  border-top: 5px solid #75b5aa !important;
-  border-bottom: 1px solid #d0d0d0 !important;
+  background: -webkit-linear-gradient(#65737e, #343d46) !important;
+  border-top: 5px solid #96b5b4 !important;
+  border-bottom: 1px solid #4f5b66 !important;
   padding-top: 0 !important;
   height: 50px !important;
 }
 #-webkit-web-inspector.compact #toolbar .toolbar-label {
-  color: #151515 !important;
+  color: #eff1f5 !important;
 }
 #-webkit-web-inspector.compact #toolbar .toggled-on .toolbar-label {
-  color: #151515 !important;
+  color: #eff1f5 !important;
 }
 #-webkit-web-inspector.compact #toolbar .toolbar-item {
   padding: 10px 15px !important;
 }
 #-webkit-web-inspector.compact #toolbar .toolbar-item.toggleable.toggled-on {
-  background: -webkit-linear-gradient(#d0d0d0, #e0e0e0) !important;
+  background: -webkit-linear-gradient(#4f5b66, #343d46) !important;
   padding: 10px 13px !important;
 }
 #-webkit-web-inspector.compact .toolbar-item.close-left {
@@ -55,32 +57,32 @@
   text-shadow: none !important;
 }
 #-webkit-web-inspector.compact #search {
-  background: #f5f5f5 !important;
+  background: #2b303b !important;
 }
 #-webkit-web-inspector .crumbs .crumb {
   display: none;
 }
 #-webkit-web-inspector .status-bar {
-  border-color: #d0d0d0 !important;
-  background: #f5f5f5 !important;
+  border-color: #4f5b66 !important;
+  background: #2b303b !important;
 }
 #-webkit-web-inspector .status-bar-item {
-  border-color: #d0d0d0 !important;
+  border-color: #4f5b66 !important;
   -webkit-filter: grayscale(0.75);
-  color: #000000 !important;
+  color: #5c5c5c !important;
   text-shadow: none !important;
 }
 #-webkit-web-inspector .glyph {
-  background-color: #000000 !important;
+  background-color: #5c5c5c !important;
 }
 #-webkit-web-inspector .glyph.shadow {
   display: none;
 }
 #-webkit-web-inspector button.status-bar-item.toggled-on .glyph {
-  background-color: #000000 !important;
+  background-color: #cfcfcf !important;
 }
 #-webkit-web-inspector #error-warning-count {
-  color: #000000 !important;
+  color: #5c5c5c !important;
   margin-right: 5px;
 }
 #-webkit-web-inspector #error-count-img,
@@ -91,13 +93,13 @@
 #-webkit-web-inspector .scope-bar li {
   margin: 1px 2px 0 !important;
   padding: 2px 5px !important;
-  color: #000000 !important;
+  color: #5c5c5c !important;
   text-shadow: none !important;
 }
 #-webkit-web-inspector .scope-bar li.selected,
 #-webkit-web-inspector .scope-bar li:hover,
 #-webkit-web-inspector .scope-bar li:active {
-  color: #000000 !important;
+  color: #cfcfcf !important;
   background: #333 !important;
 }
 #-webkit-web-inspector .styles-section,
@@ -105,29 +107,29 @@
   font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
 }
 #-webkit-web-inspector .selector-matches {
-  color: #aa759f !important;
+  color: #b48ead !important;
 }
 #-webkit-web-inspector body.inactive .sidebar {
-  background-color: #dcdcdc !important;
+  background-color: #000000 !important;
 }
 #-webkit-web-inspector .sidebar {
-  background-color: #f5f5f5 !important;
-  color: #303030;
+  background-color: #2b303b !important;
+  color: #c0c5ce;
 }
 #-webkit-web-inspector .base-storage-tree-element-subtitle {
-  color: #3d3d3d !important;
+  color: #dddddd !important;
   font-weight: bold;
 }
 #-webkit-web-inspector .sidebar-tree-section {
-  color: #3d3d3d !important;
+  color: #dddddd !important;
   text-shadow: black 0 0 0 !important;
 }
 #-webkit-web-inspector .editing {
-  color: #151515 !important;
+  color: #eff1f5 !important;
   background-color: #000 !important;
 }
 #-webkit-web-inspector .styles-section.read-only {
-  background: #b8b8b8 !important;
+  background: #585858 !important;
 }
 #-webkit-web-inspector .styles-section,
 #-webkit-web-inspector .subtitle {
@@ -173,20 +175,20 @@
   content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
 #-webkit-web-inspector .child-editing {
-  color: #151515 !important;
+  color: #eff1f5 !important;
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
-  color: #f4bf75 !important;
+  color: #ebcb8b !important;
 }
 #-webkit-web-inspector .styles-selector {
-  color: #90a959 !important;
+  color: #a3be8c !important;
 }
 #-webkit-web-inspector .section .header {
   color: #CCC !important;
 }
 #-webkit-web-inspector .properties .value {
-  color: #75b5aa !important;
+  color: #96b5b4 !important;
 }
 #-webkit-web-inspector .metrics {
   color: #333 !important;
@@ -200,7 +202,7 @@
 }
 #-webkit-web-inspector #console-messages {
   font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
-  background: #f5f5f5;
+  background: #2b303b;
 }
 #-webkit-web-inspector #console-messages a {
   color: #666 !important;
@@ -219,19 +221,19 @@
   color: #C4C7C6 !important;
 }
 #-webkit-web-inspector .console-formatted-number {
-  color: #d28445 !important;
+  color: #d08770 !important;
 }
 #-webkit-web-inspector .console-formatted-string {
-  color: #d28445 !important;
+  color: #d08770 !important;
 }
 #-webkit-web-inspector .console-formatted-object {
   color: #7C7C7C !important;
 }
 #-webkit-web-inspector .console-formatted-function {
-  color: #151515 !important;
+  color: #eff1f5 !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
-  color: #aa759f !important;
+  color: #b48ead !important;
 }
 #-webkit-web-inspector .console-group-messages .section .header .title {
   color: #F1F1F1 !important;
@@ -256,7 +258,7 @@
   }
 }
 #-webkit-web-inspector .console-message-text {
-  color: #151515;
+  color: #eff1f5;
 }
 #-webkit-web-inspector .console-error-level .console-message-text .title {
   color: #f66 !important;
@@ -273,13 +275,13 @@
 }
 #-webkit-web-inspector #console-prompt::before {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjRGNTc2MTZDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjRGNTc2MTdDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MzM3N0Y2MUMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MzM3N0Y2MkMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Plf0eOsAAAB4SURBVHjaYvz//z8DMYAFxph+BqyhA8qtQFaUacKIUAgFLkBsDMSCUMXvYRJMaApdgfgsEKcB8W6oJqwK30MVr4YqOgPEodgUgoASkkkgjfewKSyHmqIEdYIJlEZR6ILk606oonsYwQMEe6A+PQtlowBGYgMcIMAAF2wcFPVNZx8AAAAASUVORK5CYII=) !important;
-  color: #151515 !important;
+  color: #eff1f5 !important;
 }
 #-webkit-web-inspector .console-formatted-number {
-  color: #d28445 !important;
+  color: #d08770 !important;
 }
 #-webkit-web-inspector .console-formatted-string {
-  color: #d28445 !important;
+  color: #d08770 !important;
 }
 #-webkit-web-inspector .console-formatted-object,
 #-webkit-web-inspector .console-formatted-node,
@@ -287,10 +289,10 @@
   color: #7C7C7C !important;
 }
 #-webkit-web-inspector .console-formatted-function {
-  color: #151515 !important;
+  color: #eff1f5 !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
-  color: #aa759f !important;
+  color: #b48ead !important;
 }
 #-webkit-web-inspector .script-view,
 #-webkit-web-inspector .properties-tree,
@@ -304,7 +306,7 @@
 #-webkit-web-inspector .pane.expanded,
 #-webkit-web-inspector #elements-content,
 #-webkit-web-inspector .resource-view.json {
-  background: #f5f5f5 !important;
+  background: #2b303b !important;
   font-size: 12px !important;
 }
 #-webkit-web-inspector .highlight {
@@ -314,122 +316,122 @@
   background: rgba(255, 255, 255, 0.2) !important;
 }
 #-webkit-web-inspector #elements-content .selected {
-  background-color: #8a8a8a !important;
+  background-color: #2a2a2a !important;
 }
 #-webkit-web-inspector .base-navigator-tree-element-title {
-  color: #303030;
+  color: #c0c5ce;
 }
 #-webkit-web-inspector .tabbed-pane-header,
 #-webkit-web-inspector .navigator-tabbed-pane .tabbed-pane-header {
-  background-image: -webkit-linear-gradient(#b0b0b0, #e0e0e0) !important;
+  background-image: -webkit-linear-gradient(#65737e, #343d46) !important;
 }
 #-webkit-web-inspector .tabbed-pane-header-tab {
   color: #bbb !important;
   text-shadow: black 0 1px 0 !important;
 }
 #-webkit-web-inspector .tabbed-pane-header-tab.selected {
-  background-color: #f5f5f5 !important;
-  color: #303030 !important;
+  background-color: #2b303b !important;
+  color: #c0c5ce !important;
 }
 #-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header {
-  background-image: -webkit-linear-gradient(#b0b0b0, #e0e0e0) !important;
+  background-image: -webkit-linear-gradient(#65737e, #343d46) !important;
 }
 #-webkit-web-inspector .tabbed-pane-header-tab-close-button {
-  color: #303030 !important;
+  color: #c0c5ce !important;
 }
 #-webkit-web-inspector .tabbed-pane-content {
-  background: #f5f5f5 !important;
-  color: #303030 !important;
+  background: #2b303b !important;
+  color: #c0c5ce !important;
 }
 #-webkit-web-inspector .outline-disclosure li.selected .selection {
-  background-color: #8a8a8a !important;
+  background-color: #2a2a2a !important;
 }
 #-webkit-web-inspector .outline-disclosure ol:focus li.selected .selection {
   background-color: #3879d9 !important;
 }
 #-webkit-web-inspector .header-toggle:hover {
-  color: #6a9fb5 !important;
+  color: #8fa1b3 !important;
 }
 #-webkit-web-inspector .header-value.source-code {
   color: white !important;
 }
 #-webkit-web-inspector .webkit-html-comment {
-  color: #b0b0b0 !important;
+  color: #65737e !important;
 }
 #-webkit-web-inspector .webkit-html-tag {
-  color: #ac4142 !important;
+  color: #bf616a !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-name {
-  color: #d28445 !important;
+  color: #d08770 !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-value {
-  color: #90a959 !important;
+  color: #a3be8c !important;
 }
 #-webkit-web-inspector .webkit-html-text-node .webkit-html-css-node {
-  color: #d28445 !important;
+  color: #d08770 !important;
 }
 #-webkit-web-inspector .webkit-html-js-node {
-  color: #aa759f !important;
+  color: #b48ead !important;
 }
 #-webkit-web-inspector .webkit-html-resource-link,
 #-webkit-web-inspector .webkit-html-external-link {
-  color: #6a9fb5 !important;
+  color: #8fa1b3 !important;
 }
 #-webkit-web-inspector .webkit-css-comment {
-  color: #b0b0b0 !important;
+  color: #65737e !important;
 }
 #-webkit-web-inspector .webkit-css-selector,
 #-webkit-web-inspector .styles-selector {
-  color: #90a959 !important;
+  color: #a3be8c !important;
 }
 #-webkit-web-inspector .webkit-css-property {
-  color: #f4bf75 !important;
+  color: #ebcb8b !important;
 }
 #-webkit-web-inspector .webkit-css-keyword {
-  color: #ac4142 !important;
+  color: #bf616a !important;
 }
 #-webkit-web-inspector .webkit-css-number,
 #-webkit-web-inspector .properties-tree .value {
-  color: #d28445 !important;
+  color: #d08770 !important;
 }
 #-webkit-web-inspector .webkit-css-important,
 #-webkit-web-inspector .webkit-css-at-rule {
-  color: #aa759f !important;
+  color: #b48ead !important;
 }
 #-webkit-web-inspector .webkit-css-string {
-  color: #75b5aa !important;
+  color: #96b5b4 !important;
 }
 #-webkit-web-inspector .webkit-css-url {
-  color: #6a9fb5 !important;
+  color: #8fa1b3 !important;
 }
 #-webkit-web-inspector .sidebar-separator {
   padding: 3px 5px 5px !important;
-  background: #b8b8b8 !important;
+  background: #585858 !important;
   color: #b3b3b3 !important;
   text-shadow: none !important;
 }
 #-webkit-web-inspector .webkit-line-content,
 #-webkit-web-inspector .webkit-javascript-ident {
-  color: #151515 !important;
+  color: #eff1f5 !important;
 }
 #-webkit-web-inspector .webkit-javascript-keyword {
-  color: #ac4142 !important;
+  color: #bf616a !important;
 }
 #-webkit-web-inspector .webkit-javascript-comment {
-  color: #b0b0b0 !important;
+  color: #65737e !important;
 }
 #-webkit-web-inspector .webkit-javascript-string {
-  color: #d28445 !important;
+  color: #d08770 !important;
 }
 #-webkit-web-inspector .webkit-javascript-number {
-  color: #d28445 !important;
+  color: #d08770 !important;
 }
 #-webkit-web-inspector .webkit-javascript-regexp {
-  color: #aa759f !important;
+  color: #b48ead !important;
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
-  color: #f4bf75 !important;
+  color: #ebcb8b !important;
 }
 #-webkit-web-inspector .popover {
   background-color: rgba(0, 0, 0, 0.9) !important;
@@ -461,7 +463,7 @@
   border-color: transparent transparent #000 transparent !important;
 }
 #-webkit-web-inspector .popover .source-frame-popover-title {
-  color: #151515 !important;
+  color: #eff1f5 !important;
 }
 #-webkit-web-inspector .popover .source-frame-popover-tree {
   border-top-color: #444 !important;
@@ -472,132 +474,132 @@
   border-radius: 5px !important;
 }
 #-webkit-web-inspector .popover table.image-preview-container .description {
-  color: #d28445;
+  color: #d08770;
 }
 #-webkit-web-inspector .network-log-grid.data-grid th,
 #-webkit-web-inspector .network-log-grid.data-grid th.sort-descending,
 #-webkit-web-inspector .network-log-grid.data-grid th.sort-ascending {
-  background: -webkit-linear-gradient(#b0b0b0, #e0e0e0) !important;
+  background: -webkit-linear-gradient(#65737e, #343d46) !important;
   color: white !important;
 }
 #-webkit-web-inspector .network-item {
-  color: #303030;
+  color: #c0c5ce;
 }
 #-webkit-web-inspector .network-log-grid.data-grid tr.filler {
-  background-color: #f5f5f5 !important;
+  background-color: #2b303b !important;
 }
 #-webkit-web-inspector .network-timing-bar-title {
-  color: #303030 !important;
+  color: #c0c5ce !important;
 }
 #-webkit-web-inspector #timeline-overview-sidebar {
-  background: -webkit-linear-gradient(#b0b0b0, #e0e0e0) !important;
+  background: -webkit-linear-gradient(#65737e, #343d46) !important;
 }
 #-webkit-web-inspector #timeline-overview-sidebar .sidebar-tree-item {
-  color: #303030 !important;
+  color: #c0c5ce !important;
 }
 #-webkit-web-inspector #timeline-overview-sidebar .sidebar-tree-item.selected {
   color: white !important;
 }
 #-webkit-web-inspector #timeline-overview-separator {
-  background: -webkit-linear-gradient(#b0b0b0, #e0e0e0) !important;
-  border-top: 1px solid #75b5aa !important;
-  border-bottom: 1px solid #d0d0d0 !important;
+  background: -webkit-linear-gradient(#65737e, #343d46) !important;
+  border-top: 1px solid #96b5b4 !important;
+  border-bottom: 1px solid #4f5b66 !important;
 }
 #-webkit-web-inspector .timeline-details-title {
-  color: #303030;
+  color: #c0c5ce;
 }
 #-webkit-web-inspector .timeline-details {
   color: white;
 }
 #-webkit-web-inspector .timeline-details-row-title {
-  color: #d0d0d0;
+  color: #4f5b66;
 }
 #-webkit-web-inspector .timeline-details-row-data {
-  color: #303030;
+  color: #c0c5ce;
 }
 #-webkit-web-inspector .timeline-graph-side.even {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 #-webkit-web-inspector .resources-divider-label-bar {
-  background-color: #dcdcdc !important;
+  background-color: #000000 !important;
 }
 #-webkit-web-inspector .network-timeline-grid .resources-divider {
-  background-color: #000000 !important;
+  background-color: #444444 !important;
 }
 #-webkit-web-inspector .network-log-grid.data-grid select {
   color: white;
 }
 #-webkit-web-inspector .resources-divider-label,
 #-webkit-web-inspector .network-timeline-grid .resources-divider-label {
-  color: #303030 !important;
+  color: #c0c5ce !important;
 }
 #-webkit-web-inspector .network-graph-label {
-  color: #303030 !important;
+  color: #c0c5ce !important;
   text-shadow: rgba(0, 0, 0, 0.25) 1px 0 0, rgba(0, 0, 0, 0.25) -1px 0 0, rgba(0, 0, 0, 0.333) 0 1px 0, rgba(0, 0, 0, 0.25) 0 -1px 0 !important;
 }
 #-webkit-web-inspector .timeline-tree-item .data.dimmed {
-  color: #000000 !important;
+  color: #909090 !important;
 }
 #-webkit-web-inspector .resources.panel .sidebar li {
-  color: #0a0a0a;
+  color: #aaaaaa;
 }
 #-webkit-web-inspector .resource-view {
-  background-color: #f5f5f5;
+  background-color: #2b303b;
 }
 #-webkit-web-inspector .resource-view .title {
   color: white;
 }
 #-webkit-web-inspector .resource-view .infoList dt {
-  color: #d0d0d0 !important;
+  color: #4f5b66 !important;
 }
 #-webkit-web-inspector .resource-view .infoList dd {
-  color: #303030;
+  color: #c0c5ce;
 }
 #-webkit-web-inspector .resource-view.font,
 #-webkit-web-inspector .resource-view.html iframe body {
   color: white !important;
 }
 #-webkit-web-inspector .text-editor-lines {
-  background-color: #e8e8e8 !important;
-  border-right: 2px solid #000000 !important;
+  background-color: #080808 !important;
+  border-right: 2px solid #444444 !important;
 }
 #-webkit-web-inspector .text-editor-lines .webkit-line-number {
-  color: #0a0a0a;
+  color: #aaaaaa;
 }
 #-webkit-web-inspector .storage-view {
-  background-color: #f5f5f5;
+  background-color: #2b303b;
 }
 #-webkit-web-inspector .storage-empty-view {
   color: white;
 }
 #-webkit-web-inspector .data-grid th {
   background-image: none !important;
-  background: -webkit-linear-gradient(#b0b0b0, #e0e0e0) !important;
+  background: -webkit-linear-gradient(#65737e, #343d46) !important;
 }
 #-webkit-web-inspector .data-grid table.data {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(0.5, #000000), color-stop(0.5, #f5f5f5), to(#f5f5f5)) !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(0.5, #000000), color-stop(0.5, #2b303b), to(#2b303b)) !important;
 }
 #-webkit-web-inspector #settings-screen .help-window-main,
 #-webkit-web-inspector #drawer-contents .help-window-main,
 #-webkit-web-inspector .help-window-outer .tabbed-pane-header {
   color: white !important;
-  background-color: #f5f5f5 !important;
+  background-color: #2b303b !important;
 }
 #-webkit-web-inspector .settings-tab .help-section-title,
 #-webkit-web-inspector .help-key {
-  color: #75b5aa !important;
+  color: #96b5b4 !important;
 }
 #-webkit-web-inspector .help-key-delimiter {
-  color: #aa759f !important;
+  color: #b48ead !important;
 }
 #-webkit-web-inspector .styles-element-state-pane {
-  background: #b8b8b8 !important;
+  background: #585858 !important;
 }
 #-webkit-web-inspector .placard:nth-of-type(2n) {
   background: #333 !important;
 }
 #-webkit-web-inspector .placard.selected {
-  background-image: -webkit-linear-gradient(#75b5aa, #335e57) !important;
+  background-image: -webkit-linear-gradient(#96b5b4, #335e57) !important;
   border-top-color: #335e57 !important;
 }
 #-webkit-web-inspector .placard .title {
@@ -607,6 +609,6 @@
   color: rgba(255, 255, 255, 0.7) !important;
 }
 #-webkit-web-inspector .webkit-execution-line.webkit-line-content {
-  background-color: #b8b8b8 !important;
-  outline: 1px solid #919191 !important;
+  background-color: #585858 !important;
+  outline: 1px solid #313131 !important;
 }

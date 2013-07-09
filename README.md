@@ -8,19 +8,19 @@ Chrome Developer Tools style sheet based on Chris Kempson's [Base16][1] colour s
 
 ### Mac OS X
 
-1. Download `Custom.dark.css` or `Custom.light.css`
+1. Download any style sheet from the `styles` folder
 2. Copy file to `~/Library/Application Support/Google/Chrome/Default/User StyleSheets`
 3. Make sure to rename destination file to `Custom.css`
 
 ## Windows
 
-1. Download `Custom.dark.css` or `Custom.light.css`
+1. Download any style sheet from the `styles` folder
 2. Copy file to `%APPDATA%\Local\Google\Chrome\UserData\Default\User StyleSheets`
 3. Make sure to rename destination file to `Custom.css`
 
 ## Linux
 
-1. Download `Custom.dark.css` or `Custom.light.css`
+1. Download any style sheet from the `styles` folder
 2. Copy file to `~/.config/google-chrome/Default/User StyleSheets`
 3. Make sure to rename destination file to `Custom.css`
 
