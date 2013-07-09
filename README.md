@@ -1,6 +1,6 @@
 # Base16 for Chrome Developer Tools
 
-Chrome Developer Tools style sheet based on Chris Kempson's [Base16][1] colour scheme
+Chrome Developer Tools style sheets based on Chris Kempson's [Base16][1] colour scheme
 
 ![Base16: Chrome Developer Tools](https://raw.github.com/idleberg/base16-chrome-devtools/master/images/screenshot-chrome.png)
 
