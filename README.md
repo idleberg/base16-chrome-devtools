@@ -15,7 +15,7 @@ Chrome Developer Tools style sheets based on Chris Kempson's [Base16][1] colour 
 ### Windows
 
 1. Download any style sheet from the [`styles`][2] folder
-2. Copy file to `%APPDATA%\Local\Google\Chrome\UserData\Default\User StyleSheets`
+2. Copy file to `%LOCALAPPDATA%\Google\Chrome\User Data\Default\User StyleSheets`
 3. Make sure to rename destination file to `Custom.css`
 
 ### Linux
