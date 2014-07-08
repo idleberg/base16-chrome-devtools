@@ -2,7 +2,7 @@
 
 Chrome Developer Tools style sheets based on Chris Kempson's [Base16][1] colour scheme
 
-*Note*: As of Chrome 33, these style sheets might no longer work. Since then, official support for themes (using different class names) has been introduced. However, it might have been [removed](https://codereview.chromium.org/66383005/) since then. Should be interested in updating the [Base16 template](https://github.com/chriskempson/base16-builder/tree/master/templates/chrome-devtools), this [Yeoman Generator](https://www.npmjs.org/package/generator-devtools-theme) might be a good starting point.
+**Note**: As of Chrome 33, these style sheets might no longer work. Since then, official support for themes (using different class names) has been introduced. However, it might have been [removed](https://codereview.chromium.org/66383005/) since then. Should be interested in updating the [Base16 template](https://github.com/chriskempson/base16-builder/tree/master/templates/chrome-devtools), this [Yeoman Generator](https://www.npmjs.org/package/generator-devtools-theme) might be a good starting point.
 
 [this discussion](https://codereview.chromium.org/66383005/)).
 
